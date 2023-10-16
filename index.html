@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script src="./js/custom.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Container for student information -->
+    <div>
+      <p id="studentInfo"></p>
+    </div>
+    <!-- Input for user to enter a number -->
+    <div>
+      <label for="customNumber">Enter a number from 1 to 100:</label>
+      <input id="customNumberInput" type="number" placeholder="" />
+    </div>
+    <!-- Buttons for custom and random color changes -->
+    <div>
+      <button class="changeCustomColor">Change custom color</button>
+      <button class="changeRandomColor">Change random color</button>
+    </div>
+    <!-- Select dropdown for image selection -->
+    <div>
+      <label for="imageSelect">Select Image</label>
+      <select id="imageSelection">
+        <option value="">Please choose…</option>
+      </select>
+    </div>
+    <!-- Container for displaying the selected image -->
+    <div>
+      <img
+        id="imageDisplay"
+        src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+        alt=""
+      />
+    </div>
+  </body>
+</html>
